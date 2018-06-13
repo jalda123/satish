@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33900" started-at="2018-06-11T10:41:29Z" finished-at="2018-06-11T10:42:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33900" started-at="2018-06-11T10:41:29Z" finished-at="2018-06-11T10:42:03Z">
+      <class name="com.Automation.GmailNew.Gmail">
+        <test-method status="PASS" signature="launchingBrowser()[pri:0, instance:com.Automation.GmailNew.Gmail@5c3bd550]" name="launchingBrowser" is-config="true" duration-ms="11380" started-at="2018-06-11T10:41:18Z" finished-at="2018-06-11T10:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowser -->
+        <test-method status="PASS" signature="verifyGmailInbox()[pri:0, instance:com.Automation.GmailNew.Gmail@5c3bd550]" name="verifyGmailInbox" is-config="true" duration-ms="33827" started-at="2018-06-11T10:41:29Z" finished-at="2018-06-11T10:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGmailInbox -->
+        <test-method status="PASS" signature="verifyEmailSent()[pri:0, instance:com.Automation.GmailNew.Gmail@5c3bd550]" name="verifyEmailSent" duration-ms="10" started-at="2018-06-11T10:42:03Z" finished-at="2018-06-11T10:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailSent -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.Automation.GmailNew.Gmail@5c3bd550]" name="killDriver" is-config="true" duration-ms="738" started-at="2018-06-11T10:42:03Z" finished-at="2018-06-11T10:42:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+      </class> <!-- com.Automation.GmailNew.Gmail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
